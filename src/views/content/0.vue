@@ -3,6 +3,9 @@
     <div id="scroll">
         <Scroll></Scroll>
     </div>
+    <div>
+        
+    </div>
 </div>
 
   
@@ -19,6 +22,7 @@ export default {
     }
 }
 </script>
+
 
 <style scoped>
 #scroll{
