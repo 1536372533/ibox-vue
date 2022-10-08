@@ -8,8 +8,6 @@
     </swiper-slide>
 
     <div class="swiper-pagination" slot="pagination"></div>
-    <!-- <div class="swiper-button-prev" slot="button-prev"></div>
-    <div class="swiper-button-next" slot="button-next"></div> -->
   </swiper>
   
 </div>
@@ -24,10 +22,10 @@ import 'swiper/css/swiper.css'
  
 export default {
     name:'Scroll',
-  components: {
-    Swiper,
-    SwiperSlide
-  },
+    components: {
+      Swiper,
+      SwiperSlide
+    },
   data() {
     return {
       scrolls:[
